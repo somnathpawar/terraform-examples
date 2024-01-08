@@ -8,9 +8,12 @@ This boilerplate helps creating following AWS networking components:
 - 6 Route Tables & Associations with Subnets
 - 1 Security Group
 - 1 Network ACL
-- 1 EC2 Bastion Instance
 - 1 AWS Key Pairs
 - 1 VPC S3 Endpoint
+- 1 EC2 Bastion Instance
+- 1 Cloudwatch metrics
+- 1 SNS topic & email subscription
+- 1 SSL certificate for EB envrionment
 
 ### Prerequisite Steps
 - Set up a SSH key for  you & update value for public_key into "dev/terraform.tfvars" file:
@@ -33,4 +36,4 @@ This boilerplate helps creating following AWS networking components:
   terraform apply
   ```
 
-**That's it!** You are up with the main networking components to run your resources on AWS.
+**That's it!** You are up with the main networking components & elastic beanstalk environment with a sample PHP application on AWS.

@@ -1,4 +1,4 @@
-# Deploy AWS basic networking components
+# Deploy PHP 8 Application on AWS
 
 This boilerplate helps creating following AWS networking components:
 - 1 VPC

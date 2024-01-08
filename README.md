@@ -17,10 +17,10 @@ This repository contains ready to use Terraform examples to create outstanding c
 
 Here is a list of all the examples
 
-| Description                                                                                     | Folder                                                              |
+| Description                                                    | Folder                                                            |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | Deploy basic networking components on AWS                      | [here](/aws/deploy_basic_networking_aws_components)               |
-                                                                
+| Deploy PHP 8 app on Elastic Beanstalk                          | [here](/aws/deploy_php_8_app_on_elastic_beanstalk)                |                                                                
 
 ## How to contribute
 
